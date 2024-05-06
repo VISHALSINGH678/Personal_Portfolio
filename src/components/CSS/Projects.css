@@ -1,0 +1,44 @@
+.divP{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5rem;
+}
+
+.divP1{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5rem;
+}
+.divP3{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5rem;
+}
+.divP5{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5rem;
+}
+
+
+@media screen and (max-width: 950px) {
+    .divP{
+        display: grid;
+        justify-content: center;
+    }
+    .divP1{
+        display: grid;
+        justify-content: center;
+    }
+    .divP3{
+        display: grid;
+        justify-content: center;
+    }
+    .divP5{
+        display: grid;
+        justify-content: center;
+    }
+    h1{
+        font-size: 3rem;
+    }
+}

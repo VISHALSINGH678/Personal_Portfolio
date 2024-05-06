@@ -1,0 +1,52 @@
+.imgA1{
+    height: 70vh;
+    width: 100%;
+}
+h1{
+    margin: 5rem;
+    font-size: 4rem;
+}
+.divA1{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 7rem;
+}
+.divA2{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+.divA3{
+  height: 65vh;
+  width: 35vw;
+  display: grid;
+  border: 2px solid rgb(92, 91, 172);
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .imgA1{
+    height: 45vh;
+  }
+  .divA1{
+    flex-direction: column;
+    align-items: center;
+  }
+  .divA3{
+    width: 55vw;
+}
+.AboutH1{
+  font-size: 2.5rem;
+}
+}
+
+@media screen and (max-width: 500px) {
+    .imgA1{
+        height: 30vh;
+    }
+    .divA3{
+      width: 95vw;
+      padding: 1rem;
+    }
+}
