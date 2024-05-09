@@ -32,6 +32,10 @@ nav ul li a:hover{
     font-size: 1.5rem;
     color:rgb(220, 229, 236);
 }
+.left a{
+    text-decoration: none;
+    color: white;
+}
 .right{
     margin-bottom: -1rem;
 }

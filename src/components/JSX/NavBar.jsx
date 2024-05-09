@@ -6,7 +6,9 @@ export default function NavBar() {
     <div>
       <header>
         <nav>
-            <div className="left">Vishal's Portfolio</div>
+            <div className="left">
+              <a href="/Notes">Vishal's Portfolio</a>
+              </div>
             <div className="right">
                 <ul>
                     <li><a href="/">Home</a></li>
