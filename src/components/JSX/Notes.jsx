@@ -39,7 +39,7 @@ export default function Notes() {
         </ul>
         </nav>
       </div>
-
+<hr />
       <JavaScriptNotes/>
       <Footer/>
     </div>
