@@ -14,7 +14,7 @@ export default function Notes() {
 
         <ul>    
       <li>
-        <a href='/javascript'><button className='btn1'>JavaScript</button></a>
+        <a href='/Notes'><button className='btn1'>JavaScript</button></a>
         </li>
 
 
