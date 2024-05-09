@@ -2,6 +2,7 @@ import React from 'react'
 import '../CSS/Notes.css'
 import NavBar from './NavBar'
 import Footer from './Footer'
+import JavaScriptNotes from './JavaScriptNotes'
 
 export default function Notes() {
   return (
@@ -38,6 +39,8 @@ export default function Notes() {
         </ul>
         </nav>
       </div>
+
+      <JavaScriptNotes/>
       <Footer/>
     </div>
   )
