@@ -7,6 +7,7 @@ export default function Notes() {
   return (
     <div>
       <NavBar/>
+      <hr />
       <div className='notesnav'>
         <nav>
 
