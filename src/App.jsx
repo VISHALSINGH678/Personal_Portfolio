@@ -6,6 +6,10 @@ import About from './components/JSX/About';
 import Contact from './components/JSX/Contact';
 import Projects from './components/JSX/Projects';
 import Notes from './components/JSX/Notes';
+import Jquery from './components/JSX/Jquery';
+import NodeJS from './components/JSX/NodeJS';
+import Express from './components/JSX/Express';
+import ReactJS from './components/JSX/ReactJS';
 
 function App() {
 
@@ -17,6 +21,10 @@ function App() {
       <Route path="/contact" element={<Contact/>}></Route>
       <Route path="/projects" element={<Projects/>}></Route>
       <Route path="/notes" element={<Notes/>}></Route>
+      <Route path="/jquery" element={<Jquery/>}></Route>
+      <Route path="/nodejs" element={<NodeJS/>}></Route>
+      <Route path="/express" element={<Express/>}></Route>
+      <Route path="/reactjs" element={<ReactJS/>}></Route>
     </Routes>
     </BrowserRouter>
   )

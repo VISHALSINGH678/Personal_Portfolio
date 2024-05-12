@@ -1,13 +1,14 @@
 import React from 'react'
-import '../CSS/Notes.css'
+import '../CSS/JavaScriptNotes.css'
 import NavBar from './NavBar'
 import Footer from './Footer'
-import JavaScriptNotes from './JavaScriptNotes'
 
-export default function Notes() {
+export default function ReactJS() {
   return (
-    <div>
-      <NavBar/>
+      <div className="javascriptdiv">
+
+
+<NavBar/>
       <hr />
       <div className='notesnav'>
         <nav>
@@ -40,8 +41,14 @@ export default function Notes() {
         </nav>
       </div>
 <hr />
-      <JavaScriptNotes/>
+
+
+        <h1>ReactJS</h1>
+        <p><b>Cooming Soon...</b></p>
+        <br />
+        <br />
+        
       <Footer/>
-    </div>
+      </div>
   )
 }
