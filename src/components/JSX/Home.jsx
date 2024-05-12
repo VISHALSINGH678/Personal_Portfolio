@@ -28,7 +28,7 @@ export default function Home() {
                 <div>and I am a passionate</div>
                 <span ref={el} id="element"></span>
                 <div className="buttons">
-                    <a href="Vishal_Resume.pdf">
+                    <a href="Vishal_CV.pdf">
                     <button href="Vishal_CV.pdf" className="btn">Download Resume</button>
                     </a>
                     <a  href="https://github.com/VISHALSINGH678" >
